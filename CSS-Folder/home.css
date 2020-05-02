@@ -1,0 +1,276 @@
+.gral-container{
+    width: 100%;
+    max-width: 1350px;
+    height: 800px;
+    margin: auto;
+    color: white;
+    background-image: url(../Images/home/background-home.jpeg);
+
+    /* flex-box */
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+}
+
+
+/*  HEADER   */
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 42px;
+}
+
+.logo{
+    margin-top: 10px;
+    width: 227px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 162px;
+    height: 142px;
+}
+
+nav{
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    width: 1080px;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-shadow: 1px 2px black;
+}
+
+nav a {
+    padding: 35px;
+    text-decoration: none;
+    color: white;
+}
+
+
+/*  GREETING WELCOME */
+
+.greeting-welcome{
+    width: 100%;
+    height: 648px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 110px 20px 0px 0px;
+}
+.greeting-welcome h1 {
+    margin: 0px;
+    font-size: 77px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 2px black;
+}
+
+.greeting-welcome p {
+    width: 700px;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 2px black;
+    color: #ffeb00;
+}
+
+/* HOME-MAIN */
+
+
+.home-main{
+    width: 100%;
+    height: 4000px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    text-shadow: 1px 2px white;
+    color: #4e4e4e;
+    background-color: #fafafa;
+}
+
+.home-main h2{
+    font-size: 55px;
+}
+
+
+/*WHY LEARN WITH US */  
+
+.why-learn-with-us{
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.why-learn-with-us .about-us{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px; 
+    padding-top: 33px;
+}
+
+.why-learn-with-us .data-about-us{
+    display: flex;
+    width: 400px;
+    margin: 30px 0px 30px 100px;
+}
+.why-learn-with-us .data-about-us img{
+    margin: 10px;
+}
+
+
+/*  INFORMATION OFFERED */
+.information-offered{
+    width: 1076px;
+    height: 1150px;
+}
+
+.info-support, .info-real-proyect, .info-dream-job{
+    height: 300px;
+    margin: 25px;
+    display: flex;
+}
+
+.info-real-proyect{
+    
+    flex-direction: row-reverse;
+}
+
+.information-content{
+    font-size: 25px;
+    padding: 35px 50px 0px 50px;
+}
+
+.information-offered img{
+    border-color: 4px black;
+}
+
+/*  EXPERIENCES */ 
+.experiences{
+    text-align: center;
+    margin-bottom: 130px;
+}
+.block-experiences{
+    width: 1000px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.experiences h2{
+    width: 100%;
+    margin-bottom: 90px;
+}
+
+.experiences p{
+    height: 250px;
+    width: 250px;
+    font-size: 25px;     
+    font-family: serif;
+}
+
+
+.experiences-content{
+    margin: 20px;
+    padding: 10px;
+}
+.experiences img{
+    margin: 10px;
+}
+
+
+
+/* FREQUENT QUESTIONS -----------------------------  */
+
+
+.frequent-questions{
+    width: 1000px;
+
+}
+
+.frequent-questions h4{
+    text-align: center;
+    font-size: 50px;
+}
+
+.frequent-questions h5{
+    width: 100%;
+    font-size: 30px;
+    margin: 40px 0px
+    
+}
+
+.frequent-questions p{
+    font-size: 25px;
+}
+
+
+
+
+/* FOOTER ------------------------------------------- */
+
+footer{
+    background-color: #313131;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.logos{
+    width: 100%;
+    height: 108px;
+    display: flex;
+}
+
+.logos .logo-learnit img{
+    width: 141px;
+    height: 130px;
+}
+
+.socials-icons{
+    width: 77%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials-icons ul{
+    width: 390px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+/* FOOTER INFORMATION  */
+
+
+.footer-information{
+    width: 100%;
+    margin-top: 20px 0px 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+
+.footer-information ul{
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.footer-information h4{
+    margin: 10px 0px 0px 0px;
+}
+
+.footer-information ul li{
+    padding: 6px;
+}
+
+
+.copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+}

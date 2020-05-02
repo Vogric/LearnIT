@@ -1,0 +1,123 @@
+.gral-container{
+    height: 1648px;
+    background-image: url(../Images/courses/background-courses.jpg);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.learn-now-main{
+    margin-top: 30px;
+    width: 100%;
+    height: 958px;     
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 150px;
+    }
+
+
+.learn-now-main span{
+    color: #ffeb00;
+}
+
+h1 {
+    width: 100%;
+    height: 50px;
+    margin-top: 38px;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    text-shadow: 1px 2px black;
+}
+
+
+.inscription{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    font-family: sans-serif;
+    text-shadow: 1px 2px black;
+}
+
+.checkbox-courses{
+    width: 500px;
+    background-image: url(../Images/learn-now/register-image.jpg);
+}
+
+.checkbox-courses ul{
+    list-style: none;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.checkbox-courses ul h2{
+    font-size: 68px;
+    text-shadow: 4px 3px black;
+    margin-bottom: 35px;
+}
+
+.checkbox-courses li{
+    margin-top: 25px;
+    padding: 7px;
+    background-color: #333333;
+    width: fit-content;
+    color: #ffe500;
+}
+
+input:checked{
+    height: 25px;
+    width: 25px;
+    box-shadow: 0 0 0 3px;
+    color: #ffe500;
+  }
+
+.form{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    background-color:#332f23;
+}
+
+form h2{
+    font-size: 25px;
+    color: #ffe500;
+    text-align: center;
+}
+
+
+form{
+    display: flex;
+    width: 73%;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+form label{
+    margin-top: 14px;
+}
+
+form input, select, textarea{
+    font-size: 16px;
+    padding: 3px 4px 2px 4px;
+    background-color: #e2e2e2;
+    color: #464646;
+}
+
+textarea{
+    font-family: sans-serif;
+}
+
+.form-validation{
+    text-align: center;
+}
+
+
+.register{
+    background-color: #009688eb;
+    width: 80%;
+    height: 36px;
+    font-size: 22px;
+    color: white;
+    margin-bottom: 11px;
+}
